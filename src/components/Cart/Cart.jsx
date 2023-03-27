@@ -17,12 +17,12 @@ const Cart = ({cart}) => {
 
     return (
         <div className='cart'>
-            <h3>Cart is Here</h3>
+            <h3>Order Summery</h3>
             <p>Selected Items: {cart.length}</p>
             <p>Total Price: ${totalPrice}</p>
             <p>Total Shipping: ${totalShipping}</p>
             <p>Tax:${tax.toFixed(2)}</p>
-            <h6>Grand Total: ${grandTotal.toFixed(2)}</h6>
+            <h5>Grand Total: ${grandTotal.toFixed(2)}</h5>
         </div>
     );
 };
