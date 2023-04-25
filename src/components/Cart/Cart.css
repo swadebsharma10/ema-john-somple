@@ -5,3 +5,16 @@
     top: 0;
     border-radius: 5px;
 }
+.clear-cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 56px;
+    font-size: 21px;
+    margin: 10px auto;
+    background-color: rgb(218, 95, 95);
+    border-radius: 4px;
+    color: white;
+    
+}
