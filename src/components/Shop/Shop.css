@@ -14,3 +14,16 @@
     margin-right: 10px;
     
 }
+.btn-proceed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 56px;
+    font-size: 21px;
+    margin: 10px auto;
+    background-color: orange;
+    border-radius: 4px;
+    color: white;
+    
+}
